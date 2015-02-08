@@ -4,14 +4,23 @@
 }
 body{
   position:relative;
-  margin:0;
   padding:0;
-  height:100%;
   background:#fdfdfd;
   font-family: 'Lato', sans-serif;
-  font-size:14px;
-  font-weight:400;
 }
+
+header {
+    background-color: #14646d;
+}
+
+h1 {
+    margin: auto 50%;
+    width: 100%;
+    font-size: 2em;
+    padding: 2em;
+    color: #fff;
+}
+
 img{
   width:100%;
   display:block;
