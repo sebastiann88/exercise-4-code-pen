@@ -2,6 +2,9 @@
 *,*:after,*:before{
   box-sizing:border-box;
 }
+
+
+
 body{
   position:relative;
   padding:0;
@@ -15,7 +18,6 @@ header {
 
 h1 {
     margin: auto 50%;
-    width: 100%;
     font-size: 2em;
     padding: 2em;
     color: #fff;
