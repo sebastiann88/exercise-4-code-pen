@@ -57,18 +57,17 @@ img {
   padding: 0;
   margin: 0.1em;
   transition: all 1s ease; }
+  /* line 57, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  .tumb img {
+    display: block;
+    width: 100%;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease; }
 
-/* line 57, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
-.tumb img {
-  display: block;
-  width: 100%;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease; }
-
-/* line 64, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+/* line 66, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
 .tumb:hover img {
   -webkit-transform: scale(1.5);
       -ms-transform: scale(1.5);
@@ -76,7 +75,7 @@ img {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease; }
 
-/* line 70, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+/* line 72, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
 .thumbnails-preview {
   position: fixed;
   top: 0;
@@ -84,107 +83,103 @@ img {
   width: 100%;
   background: white;
   transition: all 0.8s ease; }
+  /* line 81, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  .thumbnails-preview .thumbnail-content {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden; }
+  /* line 90, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  .thumbnails-preview .thumbnail-title {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #777;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    text-align: center; }
+  /* line 101, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  .thumbnails-preview .thumbnail-close {
+    position: absolute;
+    top: 0.2em;
+    right: 0.2em;
+    border: none;
+    font-size: 3em;
+    line-height: 1;
+    font-family: serif;
+    color: #464646;
+    text-decoration: none; }
+  /* line 113, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  .thumbnails-preview .thumbnail-content {
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    max-height: 90vh;
+    padding: 0.5em;
+    overflow: hidden; }
 
-/* line 80, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
-.thumbnails-preview .thumbnail-content {
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden; }
-
-/* line 88, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
-.thumbnails-preview .thumbnail-title {
-  font-family: sans-serif;
-  font-weight: 300;
-  color: #777;
-  font-size: 20px;
-  margin: 0;
-  padding: 0;
-  margin-top: 2em;
-  text-align: center; }
-
-/* line 98, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
-.thumbnails-preview .thumbnail-close {
-  position: absolute;
-  top: 0.2em;
-  right: 0.2em;
-  border: none;
-  font-size: 3em;
-  line-height: 1;
-  font-family: serif;
-  color: #464646;
-  text-decoration: none; }
-
-/* line 109, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+/* line 125, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
 .thumbnails-preview .thumbnail-inner .thumbnail-close:hover {
   color: #f55; }
 
-/* line 112, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
-.thumbnails-preview .thumbnail-content {
-  display: block;
-  margin: 0 auto;
-  width: 100vw;
-  max-height: 90vh;
-  padding: 0.5em;
-  overflow: hidden; }
-
-/* line 120, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+/* line 129, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
 .show-thumbnail {
   opacity: 1;
   visibility: visible;
   transition: all 0.8s ease; }
 
-/* line 128, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+/* line 137, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
 .hidden-me {
   opacity: 0.1;
   transition: all 1s ease; }
 
-/* line 134, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+/* line 143, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
 .hidden-me-full {
   display: none; }
 
 @media screen and (min-width: 320px) {
-  /* line 140, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 149, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   .tumb {
     width: 100%;
     height: auto; }
 
-  /* line 141, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 150, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   #filter {
     width: calc(100% - 2em); }
  }
 
 @media screen and (min-width: 480px) {
-  /* line 144, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 153, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   .tumb {
     width: 100%;
     height: auto; }
 
-  /* line 145, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 154, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   #filter {
     width: calc(100% - 2em); }
  }
 
 @media screen and (min-width: 700px) {
-  /* line 148, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 157, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   .tumb {
     width: calc(100% / 2 - 0.5em);
     height: 160px; }
 
-  /* line 149, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 158, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   #filter {
     width: 150px; }
  }
 
 @media screen and (min-width: 1024px) {
-  /* line 152, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 161, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   .tumb {
     width: calc(100% / 4 - 0.5em);
     height: 130px; }
 
-  /* line 153, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
+  /* line 162, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   #filter {
     width: 150px; }
  }
