@@ -58,7 +58,7 @@ img {
 /* line 58, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
 .tumb {
   position: relative;
-  display: block;
+  display: inline-block;
   width: 100%;
   overflow: hidden;
   padding: 0;
@@ -66,7 +66,7 @@ img {
   transition: all 1s ease; }
   /* line 68, /Users/SebastianNadeau/Desktop/exercise-4-code-pen/scss/components/main */
   .tumb img {
-    display: block;
+    display: inline-block;
     width: 100%;
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
